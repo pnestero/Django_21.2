@@ -1,0 +1,50 @@
+@media (max-width: 768px) {
+    .menu-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+.custom-btn {
+  /* Растягиваем на всю ширину */
+  width: 100%;
+
+  /* Отступы внутри кнопки */
+  padding: 12px 20px;
+
+  /* Прозрачный фон */
+  background-color: transparent;
+
+  /* Синяя граница */
+  border: 2px solid blue;
+
+  /* Чёрный текст */
+  color: black;
+
+  /* Убираем подчёркивание ссылки */
+  text-decoration: none;
+
+  /* Центрируем текст */
+  text-align: center;
+
+  /* Плавные анимации */
+  transition: all 0.3s ease;
+
+  /* Скругление углов */
+  border-radius: 8px;
+
+  /* Шрифт */
+  font-size: 1rem;
+  font-weight: 500;
+
+  /* Обязательные свойства для корректного отображения */
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+/* Стили при наведении */
+.custom-btn:hover {
+  background-color: rgba(0, 0, 0, 0.05); /* Лёгкий серый фон */
+  border-color: darkblue; /* Тёмно‑синяя граница */
+  transform: translateY(-1px); /* Небольшой подъём */
+}
+
